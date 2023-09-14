@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate 3 in 1</title>
+    <style>
+
+      
+
+        .BMI-container {
+            background-color: rgb(0, 217, 255);
+            color: azure;
+            width: 500px;
+            padding: 30px;
+            margin: auto;
+            border: 3px solid gray;
+        }
+
+        .persegi-container {
+            background-color: rgb(0, 255, 149);
+            color: azure;
+            width: 500px;
+            padding: 30px;
+            margin: auto;
+            border: 3px solid gray;
+        }
+
+        .segitiga-container {
+            background-color: rgb(251, 0, 255);
+            color: azure;
+            width: 500px;
+            padding: 30px;
+            margin: auto;
+            border: 3px solid gray;
+        }
+
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+
+        button:hover{
+            background-color: aqua;
+            cursor: pointer;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <center>
+
+
+
+    <div class="BMI-container">
+        <h1>Calculator BMI</h1>
+
+        <p>panjang in cm</p>
+        <input class="height-input-field" type="text">
+
+        <p>berat in kg</p>
+        <input class="weight-input-field" type="text"><br>
+        <br>
+        <br>
+        <button onclick="myFunction()" class="Calculate">Calculate</button>
+    </div>
+<br>
+<br>
+    <div class="persegi-container">
+        <h1>Calculator PERSEGI PANJANG</h1>
+
+        <p>panjang in cm</p>
+        <input class="panjang" type="text">
+
+        <p>lebar in cm</p>
+        <input class="lebar" type="text"><br>
+        <br>
+        <br>
+        <button onclick="luas()" class="Calculatee">Calculate</button>
+    </div>
+<br>
+<br>
+    <div class="segitiga-container">
+        <h1>Calculator SEGITIGA</h1>
+
+        <p>alas in cm</p>
+        <input class="alas" type="text">
+
+        <p>tinggiii in cm</p>
+        <input class="tinggiii" type="text"><br>
+        <br>
+        <br>
+        <button onclick="luassegi()" class="Calculateee">Calculate</button>
+    </div>
+
+
+</center>
+
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
